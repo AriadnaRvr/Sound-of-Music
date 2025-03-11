@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    align-content: end;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: rgba(73, 4, 96, 0.716);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+   text-decoration: none;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #ff31b766;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(d6c1f34742b719ed82c68390298517e4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffff
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: solid;
+}
+
+.content {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #120021;
+    text-decoration: solid;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    -ms-flex-align: center;
+    text-align: center;
+}
+
+.subtitle {
+    color: #ffff;
+}
+
+.box-container .box i {
+    height: 15rem;
+    width: 17rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffff;
+    background: #5044fa;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color:#5044fa;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.maneskin {
+    background: url(ma.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.tyler {
+    background: url(ty.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.billie {
+    background: url(bi.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.police {
+    background: url(po.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.olivia {
+    background: url(liv.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
